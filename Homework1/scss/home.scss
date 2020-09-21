@@ -1,0 +1,22 @@
+.homePage {
+  display: flex;
+  //  background-color: red;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(13, 49, 61, 0.5);
+  //margin-top: 50px;
+  align-items: center;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(lightgrey, 0.8),
+      rgba(lightgrey, 0.3)
+    ),
+    url("../img/homepage.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  z-index: -1;
+}

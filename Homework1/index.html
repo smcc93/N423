@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="nav-holder">
+      <a href="#" id="home">Home &nbsp;&nbsp;</a>
+
+      <a href="#" id="weather">Weather &nbsp;&nbsp;</a>
+
+      <a href="#" id="forecast">3 Day Forecast &nbsp;&nbsp;</a>
+
+      <a href="#" id="timezone">Timezone &nbsp;&nbsp;</a>
+
+      <button>Log In</button>
+      &nbsp;&nbsp;
+      <button>Sign Up</button>
+      &nbsp;&nbsp;
+    </div>
+
+    <div id="homeVisible" class="homePage">
+      <h1>Welcome to the Weather Forecast site</h1>
+      <p>Explore the site with the links above or start with todays weather</p>
+    </div>
+
+    <div class="zipInput hide">
+      <p>Enter your zipcode or city below</p>
+      <input id="zipcode" type="text" />
+      <button id="getWeather">See Weather</button>
+    </div>
+
+    <div class="forecastInput hide">
+      <p>Enter your zipcode or city below</p>
+      <input id="forecastzip" type="text" />
+      <button id="getForecast">See Forecast</button>
+    </div>
+
+    <div class="timezoneInput hide">
+      <p>Enter your zipcode or city below</p>
+      <input id="timezonezip" type="text" />
+      <button id="getTimezone">See Timezone</button>
+    </div>
+
+    <div class="content hide"></div>
+
+    <div class="footer">
+      <p>Class: N423</p>
+      <p>Created By: Stewart McCalley</p>
+      <p>On: September 2020</p>
+    </div>
+
+    <script src="lib/node_modules/jquery/dist/jquery.js"></script>
+    <script src="app/app.js"></script>
+  </body>
+</html>

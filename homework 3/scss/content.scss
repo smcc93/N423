@@ -1,0 +1,17 @@
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(153, 0, 0);
+  color: rgb(241, 190, 72);
+  //padding: 15px;
+  margin: 15px;
+  // flex-direction: column;
+  border-radius: 30px;
+  div {
+    padding: 30px;
+  }
+  p {
+    margin: 10px;
+  }
+}

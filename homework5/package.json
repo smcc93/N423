@@ -1,0 +1,16 @@
+{
+  "name": "homework5",
+  "version": "1.0.0",
+  "description": "homework 5, display use of firebase",
+  "main": "index.js",
+  "scripts": {
+    "serve-local": "firebase serve --only hosting",
+    "deploy-without-functions": "firebase deploy --except functions",
+    "compile:sass": "node-sass public/scss/styles.scss public/css/styles.css -w"
+  },
+  "author": "Stewart McCalley",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}

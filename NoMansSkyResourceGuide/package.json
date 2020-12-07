@@ -1,0 +1,19 @@
+{
+  "name": "nomansskyresourceguide",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "compile:sass": "node-sass scss/styles.scss css/styles.css -w",
+    "local-serve": "live-server"
+  },
+  "author": "",
+  "license": "ISC"
+}

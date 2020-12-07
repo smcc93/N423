@@ -1,0 +1,11 @@
+@mixin backgroundImage($image) {
+  background-image: linear-gradient(
+      to right,
+      rgba($image-fade, 0.45),
+      rgba($image-fade, 0.45)
+    ),
+    url($image);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

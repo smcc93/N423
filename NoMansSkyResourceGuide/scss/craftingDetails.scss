@@ -1,0 +1,36 @@
+.componentDetailsPage {
+  height: 100vh;
+  width: 100%;
+  @include backgroundImage("../img/crafting-detail.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .componentsContent {
+    display: flex;
+    flex-direction: column;
+
+    .componentHolder {
+      width: 30vw;
+      height: 20vh;
+      background-color: $site-blue;
+      border-radius: 20px;
+      position: relative;
+      left: 50px;
+      margin-bottom: 50px;
+    }
+    h3 {
+      color: white;
+      font-family: $site-font;
+      font-weight: normal;
+    }
+    .componentCraftingContainer {
+      display: flex;
+      flex-direction: column;
+      background-color: rgba($site-black, 0.5);
+      color: white;
+      font-family: $site-font;
+      width: 15vw;
+    }
+  }
+}

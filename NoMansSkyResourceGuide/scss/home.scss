@@ -1,0 +1,52 @@
+.homePage {
+  height: 100vh;
+  width: 100%;
+  @include backgroundImage("../img/main.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .homeContent {
+    // background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    .homeResource {
+      // background-color: blue;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 30%;
+      height: 30%;
+      @include backgroundImage("../img/resources.png");
+    }
+
+    .homeComponent {
+      //background-color: red;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 30%;
+      height: 30%;
+      @include backgroundImage("../img/crafting.jpg");
+    }
+    .homeLinks {
+      width: 45%;
+      height: 45%;
+      background-color: $image-fade;
+    }
+
+    button {
+      position: fixed;
+      background-color: $main-page-buttons;
+      color: white;
+      padding: 20px;
+      font-size: 18px;
+      font-family: $site-font;
+      border-radius: 15px;
+      text-transform: capitalize;
+    }
+  }
+}

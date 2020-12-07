@@ -1,0 +1,313 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html,
+body {
+  height: 100%; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px; }
+
+.homePage {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(to right, rgba(19, 26, 52, 0.45), rgba(19, 26, 52, 0.45)), url("../img/main.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .homePage .homeContent {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 100%; }
+    .homePage .homeContent .homeResource {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 30%;
+      height: 30%;
+      background-image: linear-gradient(to right, rgba(19, 26, 52, 0.45), rgba(19, 26, 52, 0.45)), url("../img/resources.png");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat; }
+    .homePage .homeContent .homeComponent {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 30%;
+      height: 30%;
+      background-image: linear-gradient(to right, rgba(19, 26, 52, 0.45), rgba(19, 26, 52, 0.45)), url("../img/crafting.jpg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat; }
+    .homePage .homeContent .homeLinks {
+      width: 45%;
+      height: 45%;
+      background-color: #131a34; }
+    .homePage .homeContent button {
+      position: fixed;
+      background-color: #030a5a;
+      color: white;
+      padding: 20px;
+      font-size: 18px;
+      font-family: "Segoe UI";
+      border-radius: 15px;
+      text-transform: capitalize; }
+
+.resourcePage {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(to right, rgba(19, 26, 52, 0.45), rgba(19, 26, 52, 0.45)), url("../img/resources-page.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .resourcePage input {
+    position: fixed;
+    top: 100px;
+    left: 200px; }
+  .resourcePage h1 {
+    position: relative;
+    left: 35vw;
+    width: 200px;
+    color: white;
+    background-color: #0c2c47;
+    padding: 20px;
+    border-radius: 20px;
+    font-family: "Segoe UI"; }
+  .resourcePage .resourceContainer {
+    position: relative;
+    height: 60vh;
+    width: 80vw; }
+
+.componentPage {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(to right, rgba(19, 26, 52, 0.45), rgba(19, 26, 52, 0.45)), url("../img/crafting-page.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .componentPage input {
+    position: fixed;
+    top: 100px;
+    left: 200px; }
+  .componentPage h1 {
+    position: relative;
+    left: 35vw;
+    width: 225px;
+    color: white;
+    background-color: #0c2c47;
+    padding: 20px;
+    border-radius: 20px;
+    font-family: "Segoe UI"; }
+  .componentPage .componentContainer {
+    position: relative;
+    height: 60vh;
+    width: 80vw; }
+
+.pinnedItemsPage {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(to right, rgba(19, 26, 52, 0.45), rgba(19, 26, 52, 0.45)), url("../img/saved-page.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .pinnedItemsPage h1 {
+    position: fixed;
+    top: 15vh;
+    left: 45vw;
+    width: 250px;
+    color: white;
+    background-color: #0c2c47;
+    padding: 20px;
+    border-radius: 20px;
+    font-family: "Segoe UI"; }
+  .pinnedItemsPage .pinnedItemsContainer {
+    position: relative;
+    margin-top: 100px;
+    height: 60vh;
+    width: 80vw; }
+
+.componentDetailsPage {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(to right, rgba(19, 26, 52, 0.45), rgba(19, 26, 52, 0.45)), url("../img/crafting-detail.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .componentDetailsPage .componentsContent {
+    display: flex;
+    flex-direction: column; }
+    .componentDetailsPage .componentsContent .componentHolder {
+      width: 30vw;
+      height: 20vh;
+      background-color: #0c2c47;
+      border-radius: 20px;
+      position: relative;
+      left: 50px;
+      margin-bottom: 50px; }
+    .componentDetailsPage .componentsContent h3 {
+      color: white;
+      font-family: "Segoe UI";
+      font-weight: normal; }
+    .componentDetailsPage .componentsContent .componentCraftingContainer {
+      display: flex;
+      flex-direction: column;
+      background-color: rgba(10, 8, 8, 0.5);
+      color: white;
+      font-family: "Segoe UI";
+      width: 15vw; }
+
+.resourceDetailsPage {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(to right, rgba(19, 26, 52, 0.45), rgba(19, 26, 52, 0.45)), url("../img/resource-detail.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .resourceDetailsPage .detailsContent {
+    display: flex;
+    flex-direction: column; }
+    .resourceDetailsPage .detailsContent .itemHolder {
+      width: 30vw;
+      height: 20vh;
+      background-color: #0c2c47;
+      border-radius: 20px;
+      position: relative;
+      left: 200px;
+      margin-bottom: 50px; }
+    .resourceDetailsPage .detailsContent .usesContainer {
+      display: flex;
+      justify-content: space-around;
+      width: 50vw; }
+      .resourceDetailsPage .detailsContent .usesContainer .craftingContainer {
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(10, 8, 8, 0.5);
+        color: white;
+        font-family: "Segoe UI";
+        width: 15vw; }
+      .resourceDetailsPage .detailsContent .usesContainer .refiningContainer {
+        display: flex;
+        flex-direction: column;
+        color: white;
+        font-family: "Segoe UI";
+        width: 15vw;
+        background-color: rgba(10, 8, 8, 0.5); }
+      .resourceDetailsPage .detailsContent .usesContainer .createdContainer {
+        display: flex;
+        flex-direction: column;
+        color: white;
+        font-family: "Segoe UI";
+        width: 15vw;
+        background-color: rgba(10, 8, 8, 0.5); }
+
+.addNewComponentPage {
+  height: 100vh;
+  width: 100%;
+  background-color: #131a34;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .addNewComponentPage .componentForm {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; }
+    .addNewComponentPage .componentForm h1 {
+      color: white;
+      font-family: "Segoe UI"; }
+    .addNewComponentPage .componentForm input {
+      margin: 10px;
+      width: 250px; }
+    .addNewComponentPage .componentForm button {
+      position: relative;
+      padding: 15px;
+      border-radius: 10px;
+      color: white;
+      font-family: "Segoe UI";
+      font-weight: bold;
+      background-color: #7f1e18; }
+
+.addNewResourcePage {
+  height: 100vh;
+  width: 100%;
+  background-color: #131a34;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .addNewResourcePage .form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; }
+    .addNewResourcePage .form h1 {
+      color: white;
+      font-family: "Segoe UI"; }
+    .addNewResourcePage .form input {
+      margin: 10px;
+      width: 250px; }
+    .addNewResourcePage .form button {
+      position: relative;
+      padding: 15px;
+      border-radius: 10px;
+      color: black;
+      font-family: "Segoe UI";
+      font-weight: bold;
+      background-color: #6ee03d; }
+
+.header {
+  background-color: #0c2c47;
+  min-width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-family: "Segoe UI";
+  position: fixed; }
+  .header h2 {
+    margin-left: 20px;
+    margin-bottom: 0;
+    font-weight: normal; }
+  .header nav {
+    display: flex;
+    justify-content: space-around;
+    right: 50px;
+    position: fixed;
+    right: 50px; }
+    .header nav a {
+      color: white;
+      margin: 15px;
+      text-decoration: none; }
+    .header nav button {
+      background-color: #0c2c47;
+      margin: 10px;
+      padding: 10px;
+      border: white solid 1px;
+      border-radius: 5px;
+      color: white;
+      font-family: "Segoe UI"; }

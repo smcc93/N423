@@ -1,0 +1,13 @@
+{
+    "require": {
+        "slim/slim": "3.*",
+        "illuminate/database": "~5.7",
+        "respect/validation": "^2.0",
+        "firebase/php-jwt": "^5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "noMansSkyApi\\": "api"
+        }
+    }
+}
